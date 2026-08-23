@@ -135,7 +135,13 @@ PlasmoidItem {
 
         if (lastActivePrayer !== currentPrayer && Plasmoid.configuration.notifications) {
             var notification = notificationComponent.createObject(parent);
-            notification.title = "It's " + activePrayer + " time";
+            notification.title = languageIndex === 0
+                ? "It's " + getPrayerName(0, activePrayer) + " time"
+                : languageIndex === 1
+                    ? "حان وقت " + getPrayerName(1, activePrayer)
+                    : languageIndex === 2
+                        ? getPrayerName(2, activePrayer) + " vakti"
+                        : "";
             notification.sendEvent();
         }
     }
@@ -411,7 +417,13 @@ PlasmoidItem {
                         updateDisplay(times);
                         if (Plasmoid.configuration.notifications) {
                             var notification = notificationComponent.createObject(parent);
-                            notification.title = "Refreshing prayer times";
+                            notification.title = languageIndex === 0
+                                ? "Refreshing prayer times"
+                                : languageIndex === 1
+                                    ? "تحدث مواقيت الصلوات"
+                                    : languageIndex === 2
+                                        ? "Namaz vakitleri yenileniyor"
+                                        : "";
                             notification.sendEvent();
                         }
                     } else {

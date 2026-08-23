@@ -10,9 +10,9 @@
         ],
         "BugReportUrl": "https://github.com/abdulrahman-103/takbir/issues",
         "Category": "Date and Time",
-        "Description": "Prayer times on your taskbar",
-        "Description[ar]": "مواقيت الصلاة على شريط مهامك",
-        "Description[tr]": "Görev çubuğunuzda namaz vakitleri",
+        "Description": "Prayer times on your taskbar or desktop",
+        "Description[ar]": "مواقيت الصلاة على شريط المهام او سطح المكتب",
+        "Description[tr]": "Görev çubuğunuzda veya masaüstünüzde namaz vakitleri",
         "EnabledByDefault": true,
         "FormFactors": [
             "tablet",
