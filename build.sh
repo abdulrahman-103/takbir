@@ -1,1 +1,1 @@
-zip -r ./prayertimes.plasmoid . -x '*.git*' 'build.sh'
+zip -r ./takbir.plasmoid . -x '*.git*' 'build.sh'
