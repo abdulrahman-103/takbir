@@ -12,7 +12,7 @@ PlasmoidItem {
 
     property var methodIds: [
     1,  // University of Islamic Sciences, Karachi
-    2,  // Islamic Society of North America (ISNA)
+    2,  // Islamic Society of North America
     3,  // Muslim World League
     4,  // Umm Al-Qura University, Makkah
     5,  // Egyptian General Authority of Survey
@@ -25,10 +25,10 @@ PlasmoidItem {
     14, // Spiritual Administration of Muslims of Russia
     15, // Moonsighting Committee Worldwide
     16, // Dubai
-    17, // Jabatan Kemajuan Islam Malaysia (JAKIM)
+    17, // Jabatan Kemajuan Islam Malaysia
     18, // Tunisia
     19, // Algeria
-    20, // Kementerian Agama Republik Indonesia (KEMENAG)
+    20, // Kementerian Agama Republik Indonesia
     21, // Morocco
     22, // Comunidade Islamica de Lisboa
     23  // Ministry of Awqaf, Islamic Affairs and Holy Places, Jordan
@@ -72,8 +72,8 @@ PlasmoidItem {
             let hours = parseInt(parts[0], 10);
             let minutes = parseInt(parts[1], 10);
             let period = hours >= 12
-            ? (languageIndex === 1 ? "مساءً" : "PM")
-            : (languageIndex === 1 ? "صباحًا" : "AM");
+                ? (languageIndex === 0 ? "PM" : languageIndex === 1 ? "مساءً" : languageIndex === 2 ? "ÖS" : "")
+                : (languageIndex === 0 ? "AM" : languageIndex === 1 ? "صباحًا" : languageIndex === 2 ? "ÖÖ" : "");
             hours = hours % 12 || 12;
             if (minutes > 9) {
                 return `${hours}:${minutes} ${period}`;
@@ -97,7 +97,7 @@ PlasmoidItem {
     function getPrayerName(languageIndex, prayer) {
         if (languageIndex === 0) {
             return prayer;
-        } else {
+        } else if (languageIndex === 1) {
             let arabicPrayers = {
                 "Fajr": "الفجر",
                 "Sunrise": "الشروق",
@@ -107,6 +107,16 @@ PlasmoidItem {
                 "Isha": "العشاء"
             }
             return arabicPrayers[prayer];
+        } else if (languageIndex === 2) {
+            let turkishPrayers = {
+                "Fajr": "Sabah",
+                "Sunrise": "Güneş",
+                "Dhuhr": "Öğle",
+                "Asr": "İkindi",
+                "Maghrib": "Akşam",
+                "Isha": "Yatsı"
+            }
+            return turkishPrayers[prayer];
         }
     }
 
@@ -290,7 +300,13 @@ PlasmoidItem {
 
             Label {
                 id: titleLabel
-                text: languageIndex === 0 ? "Prayer Times" : "مواقيت الصلاة"
+                text: languageIndex === 0
+                    ? "Prayer Times"
+                    : languageIndex === 1
+                        ? "مواقيت الصلاة"
+                        : languageIndex === 2
+                            ? "Namaz Vakitleri"
+                            : ""
                 font.pixelSize: 24
                 anchors.horizontalCenter: parent.horizontalCenter
             }
@@ -344,7 +360,7 @@ PlasmoidItem {
                             anchors.fill: parent // throwing error
                             anchors.leftMargin: Kirigami.Units.largeSpacing
                             anchors.rightMargin: Kirigami.Units.largeSpacing
-                            layoutDirection: languageIndex === 0 ? Qt.LeftToRight : Qt.RightToLeft
+                            layoutDirection: languageIndex === 0 || languageIndex === 2 ? Qt.LeftToRight : Qt.RightToLeft
 
                             Label {
                                 text: getPrayerName(languageIndex, handle)
@@ -382,7 +398,13 @@ PlasmoidItem {
             }
 
             Button {
-                text: i18n("Refresh times")
+                text: languageIndex === 0
+                    ? "Refresh Times"
+                    : languageIndex === 1
+                        ? "حدث المواقيت"
+                        : languageIndex === 2
+                            ? "Vakitleri Yenile"
+                            : ""
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
                     if (times && Object.keys(times).length > 0 && getFormattedDate(new Date()) === times.date) {

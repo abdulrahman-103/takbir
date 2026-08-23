@@ -1,5 +1,5 @@
-# Takbeer — تكبير
-A simple KDE Plasma 6 widget for prayer times — اداة بسيطة على شريط المهام لوقت الاذان لواجهة KDE Plasma 6
+# Takbir — تكبير
+A simple KDE Plasma 6 widget for prayer times — اداة بسيطة على شريط المهام لمواقيت الصلاة لواجهة KDE Plasma 6
 
 <img width="706" height="506" alt="Screenshot_20260823_042424" src="https://github.com/user-attachments/assets/7fa8ac7b-0ca5-4826-a060-79f4e5b1b57d" />
 

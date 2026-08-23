@@ -8,10 +8,11 @@
                 "Name[ar]": "عبد الرحمن"
             }
         ],
-        "BugReportUrl": "https://github.com/abdulrahman-103/takbeer/issues",
+        "BugReportUrl": "https://github.com/abdulrahman-103/takbir/issues",
         "Category": "Date and Time",
         "Description": "Prayer times on your taskbar",
-        "Description[ar]": "اوقات الصلاة على شريط مهامك",
+        "Description[ar]": "مواقيت الصلاة على شريط مهامك",
+        "Description[tr]": "Görev çubuğunuzda namaz vakitleri",
         "EnabledByDefault": true,
         "FormFactors": [
             "tablet",
@@ -19,11 +20,12 @@
             "desktop"
         ],
         "Icon": "/icons/icon.svg",
-        "Id": "com.github.abdulrahman-103.takbeer",
+        "Id": "com.github.abdulrahman-103.takbir",
         "License": "GPL-3.0+",
-        "Name": "Takbeer",
+        "Name": "Takbir",
         "Name[ar]": "تكبير",
-        "Website": "https://github.com/abdulrahman-103/takbeer"
+        "Name[tr]": "Tekbir",
+        "Website": "https://github.com/abdulrahman-103/takbir"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }
