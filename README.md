@@ -6,9 +6,9 @@ A KDE Plasma 6 widget on your taskbar or desktop for prayer times — اداة �
 <img width="1049" height="863" alt="3" src="https://github.com/user-attachments/assets/b4392bfe-f159-4505-a7e1-3e9cc4ad8cfb" />
 
 
-Uses the method of the majority of schools (Hanbali, Shafi'i, and Maliki) to calculate prayer times.
+Uses the method of the majority of schools (Hanbali, Shafi'i, Maliki and Abu Hanifa's 2 companions which is <a href="https://sunnah.com/tirmidhi:149">single shadow length</a>) which is  to calculate prayer times.
 
-يعتمد على رأي جمهور العلماء: الشافعية، والمالكية، والحنابلة، ورأي صاحبي أبي حنيفة، وهو <a href="https://dorar.net/hadith/sharh/32471">ظل الشيء مثله</a> في صلاة العصر.
+يعتمد على رأي جمهور العلماء: الشافعية، والمالكية، والحنابلة، ورأي صاحبي أبي حنيفة، وهو <a href="https://sunnah.com/tirmidhi:149">ظل الشيء مثله</a> في صلاة العصر.
 
 ## Attribution
 API used to get prayer times is from https://aladhan.com.
