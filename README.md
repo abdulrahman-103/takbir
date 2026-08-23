@@ -1,9 +1,10 @@
 # Takbir — تكبير
 A KDE Plasma 6 widget on your taskbar or desktop for prayer times — اداة على شريط المهام او سطح المكتب لمواقيت الصلاة لواجهة KDE Plasma 6
 
-<img width="706" height="506" alt="Screenshot_20260823_042424" src="https://github.com/user-attachments/assets/7fa8ac7b-0ca5-4826-a060-79f4e5b1b57d" />
+<img width="755" height="609" alt="1" src="https://github.com/user-attachments/assets/ce37e3f0-a170-4775-b833-bac1fa1803cf" />
+<img width="346" height="528" alt="2" src="https://github.com/user-attachments/assets/7825d70a-3d7d-46bb-9359-a9a24d23bd8b" />
+<img width="1049" height="863" alt="3" src="https://github.com/user-attachments/assets/b4392bfe-f159-4505-a7e1-3e9cc4ad8cfb" />
 
-<img width="779" height="81" alt="Screenshot_20260823_172036" src="https://github.com/user-attachments/assets/1912f2a6-7e97-4e8e-a045-c6995580a33b" />
 
 Uses the method of the majority of schools (Hanbali, Shafi'i, and Maliki) to calculate prayer times — تستخدم طريقة جمهور المذاهب (حنبلي, شافعي, مالكي) لحساب وقت الاذان
 
