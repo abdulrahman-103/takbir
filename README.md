@@ -1,10 +1,7 @@
 # Prayer Times
 ## A simple prayer times widget for KDE Plasma 6
 
-This is a simple prayer times widget for KDE Plasma 6. , and the .
-
-![Red theme](prayer-times-widget.png)
-![Blue theme](prayertimeswidget.png)
+<img width="706" height="506" alt="Screenshot_20260823_042424" src="https://github.com/user-attachments/assets/7fa8ac7b-0ca5-4826-a060-79f4e5b1b57d" />
 
 ## Attribution
 API used to get prayer times is from https://aladhan.com.
