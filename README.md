@@ -3,7 +3,7 @@
 
 <img width="706" height="506" alt="Screenshot_20260823_042424" src="https://github.com/user-attachments/assets/7fa8ac7b-0ca5-4826-a060-79f4e5b1b57d" />
 
-## Uses the method of the majority of schools (Hanbali, Shafi'i, and Maliki) to calculate prayer times — يستخدم طريقة جمهور المذاهب (حنبلي, شافعي, مالكي) لحساب وقت الاذان
+## Uses the method of the majority of schools (Hanbali, Shafi'i, and Maliki) to calculate prayer times — تستخدم طريقة جمهور المذاهب (حنبلي, شافعي, مالكي) لحساب وقت الاذان
 
 ## Attribution
 API used to get prayer times is from https://aladhan.com.
