@@ -15,4 +15,4 @@ API used to get prayer times is from https://aladhan.com.
 
 The API usage code is from Fahim Shahriar's AdhanTimes (licensed under MIT).
 
-This is a fork of prayertimes by hnasheralneam (licensed under GPL-3.0-or-later) which is a fork of KDE Plasma's analogclock by Marco Martin (licensed under GPL-2.0-or-later).
+This is a fork of [prayertimes by hnasheralneam](https://github.com/hnasheralneam/prayertimes) (licensed under GPL-3.0-or-later) which is a fork of KDE Plasma's analogclock by Marco Martin (licensed under GPL-2.0-or-later).
