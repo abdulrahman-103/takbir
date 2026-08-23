@@ -18,7 +18,7 @@
             "handset",
             "desktop"
         ],
-        "Icon": "player-time",
+        "Icon": "/icons/icon.svg",
         "Id": "com.github.abdulrahman-103.takbeer",
         "License": "GPL-3.0+",
         "Name": "Takbeer",
