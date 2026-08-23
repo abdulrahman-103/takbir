@@ -8,10 +8,10 @@
                 "Name[ar]": "عبد الرحمن"
             }
         ],
-        "BugReportUrl": "https://github.com/hnasheralneam/prayertimeswidget/issues",
+        "BugReportUrl": "https://github.com/abdulrahman-103/takbeer/issues",
         "Category": "Date and Time",
-        "Description": "Prayer times clock on your taskbar",
-        "Description[ar]": "ساعة الصلاة على شريط مهامك",
+        "Description": "Prayer times on your taskbar",
+        "Description[ar]": "اوقات الصلاة على شريط مهامك",
         "EnabledByDefault": true,
         "FormFactors": [
             "tablet",
@@ -23,7 +23,7 @@
         "License": "GPL-3.0+",
         "Name": "Takbeer",
         "Name[ar]": "تكبير",
-        "Website": "https://github.com/hnasheralneam/prayertimeswidget"
+        "Website": "https://github.com/abdulrahman-103/takbeer"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }
