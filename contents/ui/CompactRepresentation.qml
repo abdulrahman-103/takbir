@@ -1,6 +1,6 @@
 /*
     SPDX-FileCopyrightText: 2013 Marco Martin <mart@kde.org>
-    SPDX-FileCopyrightText: 2026 Abdulrahman <abdulrahman103@proton.me>
+    SPDX-FileCopyrightText: 2026 Abdulrahman 103
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
